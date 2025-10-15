@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 
 int main()
@@ -12,4 +13,20 @@ int main()
     printf("(&arr)+1 : %lu\n", (&arr)+1);                 // 120
 
     return 0;
+=======
+#include<stdio.h>
+
+int main()
+{
+    int arr[5] = {10,20,30,40,50};
+    
+    printf("Size of arr is : %lu Bytes\n",sizeof(arr));   // 20
+    printf("arr : %lu\n",arr);                            // 100
+    printf("&arr : %lu\n",&arr);                          // 100
+    
+    printf("arr+1 : %lu\n", arr+1);                       // 104
+    printf("(&arr)+1 : %lu\n", (&arr)+1);                 // 120
+
+    return 0;
+>>>>>>> 828fd58bccfaf0ecbf7c2ebc90f2eb1796d6f664
 }

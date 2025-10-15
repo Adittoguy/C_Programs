@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 
 int main()
@@ -16,4 +17,24 @@ int main()
     printf("%d\n", brr[1]);
 
     return 0;
+=======
+#include<stdio.h>
+
+int main()
+{
+    int arr[4] = {10,20,30,40};
+    
+    int brr[3];
+    brr[2] = 30;
+    brr[0] = 10;
+    brr[1] = 20;
+
+    printf("%d\n", arr[0]);
+    printf("%d\n", arr[1]);
+
+    printf("%d\n", brr[0]);
+    printf("%d\n", brr[1]);
+
+    return 0;
+>>>>>>> 828fd58bccfaf0ecbf7c2ebc90f2eb1796d6f664
 }
